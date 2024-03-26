@@ -22,7 +22,5 @@ services:
     container_name: users-service
     ports:
      - "6001:6001"
-    links:
-    - db:db
     environment:
      - DATABASE_HOST=db
